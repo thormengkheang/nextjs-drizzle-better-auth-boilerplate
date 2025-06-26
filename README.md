@@ -5,7 +5,7 @@ First create `.env` check the `.env.example`.
 Migate database and seed user.
 
 ```bash
-pnpm db:mrigate
+pnpm db:migrate
 pnpm db:seed
 ```
 
