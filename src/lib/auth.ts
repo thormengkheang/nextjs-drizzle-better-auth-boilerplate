@@ -6,7 +6,9 @@ import { nextCookies } from "better-auth/next-js";
 import * as schema from "@/db/schema";
 
 export const auth = betterAuth({
-  enableEmailVerification: true,
+  emailAndPassword: {
+    enabled: true,
+  },
   database: drizzleAdapter(db, {
     provider: "pg",
     schema: {
