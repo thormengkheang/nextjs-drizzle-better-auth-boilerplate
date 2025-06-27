@@ -1,6 +1,9 @@
 # Nextjs Drizzle Better Auth Boilerplate
 
-Nextjs, Tailwind, Shadcn/ui, Drizzle, Better Auth Boilerplate.
+Nextjs, Tailwind, Shadcn/ui, Drizzle, Better Auth Boilerplate. Features include:
+
+- Sign In and Sign Up
+- Protected route /
 
 ## Getting Started
 
